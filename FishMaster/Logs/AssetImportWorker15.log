@@ -1,0 +1,794 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2021.3.41f1c1 (abf9ed549ceb) revision 11270637'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'zh' Physical Memory: 65440 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Hub\Editor\2021.3.41f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+D:/UnityProject/FishMaster/FishMaster
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+51989
+Successfully changed project path to: D:/UnityProject/FishMaster/FishMaster
+D:/UnityProject/FishMaster/FishMaster
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32804] Host "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 4148291068 [EditorId] 4148291068 [Version] 1048832 [Id] WindowsEditor(7,BF-202501021008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32804] Host "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 4148291068 [EditorId] 4148291068 [Version] 1048832 [Id] WindowsEditor(7,BF-202501021008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 74.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.41f1c1 (abf9ed549ceb)
+[Subsystems] Discovering subsystems at path D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/FishMaster/FishMaster/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005568 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Domain Reload Profiling:
+	ReloadAssembly (934ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1799ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1457ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (905ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (779ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2965 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (38.2 KB). Loaded Objects now: 3430.
+Memory consumption went from 107.2 MB to 107.1 MB.
+Total: 4.008800 ms (FindLiveObjects: 0.334000 ms CreateObjectMapping: 0.181300 ms MarkObjects: 3.414300 ms  DeleteObjects: 0.078000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10426.273476 seconds.
+  path: Assets/Fish/魔鬼鱼死亡_4.png
+  artifactKey: Guid(4895d2c25cb2a354b9f050d680035341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼死亡_4.png using Guid(4895d2c25cb2a354b9f050d680035341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22e315ca1c8ba1954a6d5685c5e43eb') in 0.145894 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.184758 seconds.
+  path: Assets/Fish/魔鬼鱼死亡_0.png
+  artifactKey: Guid(db9b5537cc1369640940add34862a97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼死亡_0.png using Guid(db9b5537cc1369640940add34862a97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de73c33a929457458b5cb6957c6dcbe0') in 0.014735 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021229 seconds.
+  path: Assets/Fish/魔鬼鱼_23.png
+  artifactKey: Guid(175e1c2e28d0add42a4fea1aff606fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼_23.png using Guid(175e1c2e28d0add42a4fea1aff606fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe83a890def71e1bb1230df412d4fd6') in 0.017454 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 65.919330 seconds.
+  path: Assets/Bullets/bulletP6_0.png
+  artifactKey: Guid(66c7dca4edf87f14eb48c6d9e7ccbf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Bullets/bulletP6_0.png using Guid(66c7dca4edf87f14eb48c6d9e7ccbf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0671250ee6842a0e02cb606c26e1499') in 0.009724 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004211 seconds.
+  path: Assets/Bullets/bulletQuadP0_0.png
+  artifactKey: Guid(eaf802f1aaf969044884cd1daec81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Bullets/bulletQuadP0_0.png using Guid(eaf802f1aaf969044884cd1daec81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c9866fc766307a000a47e8d9ed72d5') in 0.011305 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Bullets/bullets/bulletQuadP0_1.png
+  artifactKey: Guid(3fa1712f481979c4da0babd18f692131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Bullets/bullets/bulletQuadP0_1.png using Guid(3fa1712f481979c4da0babd18f692131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1252ef62860b8ddbd7cb08c181f31cae') in 0.008803 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002551 seconds.
+  path: Assets/Bullets/bullets/bulletQuadP6_1.png
+  artifactKey: Guid(9708110d4613314478674a2ab6a17fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Bullets/bullets/bulletQuadP6_1.png using Guid(9708110d4613314478674a2ab6a17fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ce63e7366953aafd5bc403347f5302') in 0.008687 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Bullets/bulletQuadP8_0.png
+  artifactKey: Guid(f2cdb28ff29ecfb41a954d24b896c150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Bullets/bulletQuadP8_0.png using Guid(f2cdb28ff29ecfb41a954d24b896c150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3753644ebae7987212b39828c986b4') in 0.008863 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Bullets/bullets/bulletQuadP7_1.png
+  artifactKey: Guid(4a7b13c8963245e4c869b9e0ccb3ac6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Bullets/bullets/bulletQuadP7_1.png using Guid(4a7b13c8963245e4c869b9e0ccb3ac6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9415ce6a97181e52180a04382d67c1') in 0.006995 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/UI/ui_fish_shop1.png
+  artifactKey: Guid(81d086bb90fda014abf36afe726c8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI/ui_fish_shop1.png using Guid(81d086bb90fda014abf36afe726c8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f87eb251542523900d0056088bc1204') in 0.013749 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/ui_fish_sound1.png
+  artifactKey: Guid(e5d9bf7a88799824f832dd5ada68b188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI/ui_fish_sound1.png using Guid(e5d9bf7a88799824f832dd5ada68b188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce4bb5466f5ba451240c6a0ae769170') in 0.011107 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI/ui_fish_setup_jm2.png
+  artifactKey: Guid(e40d68ce62bc8a4418ff2d13bb453d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI/ui_fish_setup_jm2.png using Guid(e40d68ce62bc8a4418ff2d13bb453d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82a0a247a1a9105345b3b8e33c5f4d4') in 0.011703 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Bullets/bullets/bulletQuadP7_0.png
+  artifactKey: Guid(c7a7a9b7c2fa6324a9c008cd850287db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Bullets/bullets/bulletQuadP7_0.png using Guid(c7a7a9b7c2fa6324a9c008cd850287db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5ef25bc9d6ae132146a8eb638cb46b') in 0.008086 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fish/枪鱼死亡_2.png
+  artifactKey: Guid(53bd89ed03ecced4982068d987165461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/枪鱼死亡_2.png using Guid(53bd89ed03ecced4982068d987165461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03874acc1eb8434a665067df6cd6abef') in 0.015165 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/ui_fish_sound2.png
+  artifactKey: Guid(04eeef04590f81041bc486a712a80b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI/ui_fish_sound2.png using Guid(04eeef04590f81041bc486a712a80b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5b680d563b8a254ae0e325dedf8325') in 0.010800 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Background/items/水草3_8.png
+  artifactKey: Guid(f2b61a1a68a761042b0b1261131c4ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草3_8.png using Guid(f2b61a1a68a761042b0b1261131c4ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3577d075d679fad96143b94aba56b8') in 0.017365 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Background/items/水草4_5.png
+  artifactKey: Guid(0f9fdb2e939f8774b944e355b0f3651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草4_5.png using Guid(0f9fdb2e939f8774b944e355b0f3651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa58c98c627100da33329009f52189a5') in 0.012925 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Background/items/水草4_10.png
+  artifactKey: Guid(39e5639d8d3a7854b84cc08d1bdcc344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草4_10.png using Guid(39e5639d8d3a7854b84cc08d1bdcc344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bba194029e2f6d7c766393c95fcf826') in 0.012595 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Background/items/水草5_9.png
+  artifactKey: Guid(b6bf7815114e0c94a83031b9f5e72e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草5_9.png using Guid(b6bf7815114e0c94a83031b9f5e72e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a131bbc7ac971817d9b25d887f73fd3') in 0.015227 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Background/items/水草5_10.png
+  artifactKey: Guid(843e267556327a64da5a63420a0e895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草5_10.png using Guid(843e267556327a64da5a63420a0e895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe571b15f01ac06fdee16c3542379a05') in 0.013863 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Background/items/海星2_3.png
+  artifactKey: Guid(e30eed2bcd8a4e14c972d61e27011202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星2_3.png using Guid(e30eed2bcd8a4e14c972d61e27011202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9a4b56d499a2a11797c53666df00cc') in 0.016341 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Background/items/海星黑_1.png
+  artifactKey: Guid(8ebcc87889d67584488463274b578100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星黑_1.png using Guid(8ebcc87889d67584488463274b578100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f46f761b0974487c81bd3d7aa6283d6') in 0.011815 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Background/items/水草3_5.png
+  artifactKey: Guid(72f792e484268c2419ae0be508698852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草3_5.png using Guid(72f792e484268c2419ae0be508698852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d4da9e7ceac854bdc168565bfe2fb6') in 0.014391 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Background/items/水草4_12.png
+  artifactKey: Guid(433c915708cac6749a813de55d6e17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草4_12.png using Guid(433c915708cac6749a813de55d6e17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c61593175f1e737d39395ed883705e') in 0.010570 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fish/石斑鱼_2.png
+  artifactKey: Guid(119021fc2f7d08048bb753075010283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/石斑鱼_2.png using Guid(119021fc2f7d08048bb753075010283a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa358a13a11457fdb9337f18b58ea63a') in 0.012161 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fish/石斑鱼_3.png
+  artifactKey: Guid(064a58a78ce471440b2e01d3bc5b9bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/石斑鱼_3.png using Guid(064a58a78ce471440b2e01d3bc5b9bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbf94fd53dd94eb0f6b558de5f7db10') in 0.010060 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fish/神仙鱼_7.png
+  artifactKey: Guid(aa20df45092a2b04e8e708d38cdb503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/神仙鱼_7.png using Guid(aa20df45092a2b04e8e708d38cdb503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939290fcb460bf3ded7c4c5c8414d857') in 0.013407 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Background/items/海星2_4.png
+  artifactKey: Guid(f9e66edbe3623564ba5be2953db7cfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星2_4.png using Guid(f9e66edbe3623564ba5be2953db7cfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48c285785007aeff4bea5426ff7c7ff') in 0.013852 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Background/items/水草5_4.png
+  artifactKey: Guid(5e3180b9314696645beb1f63b49ba8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草5_4.png using Guid(5e3180b9314696645beb1f63b49ba8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34cea52c3a01c97aa1135da394e084b') in 0.012231 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fish/神仙鱼_14.png
+  artifactKey: Guid(de34435104a704f409983752fad7f381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/神仙鱼_14.png using Guid(de34435104a704f409983752fad7f381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c794b83314f17394bc4f2c96322b256f') in 0.009005 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fish/神仙鱼_17.png
+  artifactKey: Guid(42bcbb21bcf84b348a7b28eac7130063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/神仙鱼_17.png using Guid(42bcbb21bcf84b348a7b28eac7130063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6760bb7e5607bf147c332c70af624fba') in 0.010516 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fish/金鲨_0.png
+  artifactKey: Guid(a10b27b64dc10904d9c7a56314114765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/金鲨_0.png using Guid(a10b27b64dc10904d9c7a56314114765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101cce52cbed0b389ec406a2144bfeed') in 0.016570 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Background/items/海星_2.png
+  artifactKey: Guid(bafd8601ff920b045a9f5ef61109012e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星_2.png using Guid(bafd8601ff920b045a9f5ef61109012e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c95bebe9d28090f32fc022d0b8dab7d') in 0.013083 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fish/灯笼鱼_4.png
+  artifactKey: Guid(04d0f99ab9829aa44a2514dfb41339a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/灯笼鱼_4.png using Guid(04d0f99ab9829aa44a2514dfb41339a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a99879bb0921912634ab434e86a869') in 0.011921 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fish/魔鬼鱼_0.png
+  artifactKey: Guid(f58a1bf9f55d3b7458ab4ce1455eea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼_0.png using Guid(f58a1bf9f55d3b7458ab4ce1455eea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c40e8d3ec609996f0506fc3123abaa') in 0.014610 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fish/银鲨死亡_0.png
+  artifactKey: Guid(4002812f20762e14ca979ea15b5bcff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/银鲨死亡_0.png using Guid(4002812f20762e14ca979ea15b5bcff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebd67afec44c07fa3a2a8c617a7bca5') in 0.015368 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fish/魔鬼鱼_5.png
+  artifactKey: Guid(c73c6080e3565e64e963bb89dcd058c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼_5.png using Guid(c73c6080e3565e64e963bb89dcd058c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8169ddea73d62c90a693cfa5bc3749d2') in 0.014890 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fish/石斑鱼_5.png
+  artifactKey: Guid(d93ebcec66da19b42b7bee986a2b7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/石斑鱼_5.png using Guid(d93ebcec66da19b42b7bee986a2b7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168368a3eef915b1f49f18fac0ce7422') in 0.009252 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fish/蟋蟀鱼死亡_3.png
+  artifactKey: Guid(f3b2b14a491f27846964eb91fdcfac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/蟋蟀鱼死亡_3.png using Guid(f3b2b14a491f27846964eb91fdcfac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa6d8a6cf7ef00341f2cbd4391f200a') in 0.009112 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fish/银鲨_10.png
+  artifactKey: Guid(d67d8b379c1c5f84cbbe924566b9c83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/银鲨_10.png using Guid(d67d8b379c1c5f84cbbe924566b9c83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6e0980aa0f5e73e4d0328321b15311') in 0.012449 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Background/items/海星黑_6.png
+  artifactKey: Guid(facb4d78d8d2c9e4781c461735eafb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星黑_6.png using Guid(facb4d78d8d2c9e4781c461735eafb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767d137907bfdda0212a23bad48aea75') in 0.009463 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fish/神仙鱼_13.png
+  artifactKey: Guid(f1fb6db7d9fd52d47b093c8e6e5f2b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/神仙鱼_13.png using Guid(f1fb6db7d9fd52d47b093c8e6e5f2b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49b1809a736bce2767742cbe08c580e') in 0.010296 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Background/items/海星黑_0.png
+  artifactKey: Guid(4915dc43de5c478408e21087e36a6500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星黑_0.png using Guid(4915dc43de5c478408e21087e36a6500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edade182e660f249ba6003d54f2d851') in 0.009292 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Background/items/海星_14.png
+  artifactKey: Guid(625f3ed048a9cfb44a546e5e829df9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星_14.png using Guid(625f3ed048a9cfb44a546e5e829df9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6290723b16a286eabb407da1f5646d5') in 0.011421 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fish/魔鬼鱼_6.png
+  artifactKey: Guid(cfeb08376b0eab145a068c9461721d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼_6.png using Guid(cfeb08376b0eab145a068c9461721d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f60579e74189e16809e81e69f8dbb5') in 0.014253 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fish/银鲨_8.png
+  artifactKey: Guid(b3664e16e169728429fee04c8f3a9683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/银鲨_8.png using Guid(b3664e16e169728429fee04c8f3a9683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3d2e406af20e83fed93c098d822b17') in 0.012380 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fish/魔鬼鱼_4.png
+  artifactKey: Guid(56f5b8046c9ad6e428d2aec35d2c7346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼_4.png using Guid(56f5b8046c9ad6e428d2aec35d2c7346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56a515bcdf4e5c236d3b3844b59914a') in 0.015774 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fish/石斑鱼_1.png
+  artifactKey: Guid(fd517b9fe79efaf4ab9bd51c6642ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/石斑鱼_1.png using Guid(fd517b9fe79efaf4ab9bd51c6642ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1cdd7884b77f21ff3b12b23ae86025') in 0.009693 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fish/灯笼鱼_6.png
+  artifactKey: Guid(7d61b9104e3291049a55eae6cef20d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/灯笼鱼_6.png using Guid(7d61b9104e3291049a55eae6cef20d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4377d8d38154cfe911413c789d271ca') in 0.010172 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fish/石斑鱼_6.png
+  artifactKey: Guid(4446663cb059f3a46af85490ba3190a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/石斑鱼_6.png using Guid(4446663cb059f3a46af85490ba3190a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0f331a64eeeb5a51620f75f879b319') in 0.008551 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Background/items/水草5_8.png
+  artifactKey: Guid(20b846fa4c485da40adf017db3d284dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草5_8.png using Guid(20b846fa4c485da40adf017db3d284dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67309b525425e100cfec496aa54a67b3') in 0.009825 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fish/银鲨_4.png
+  artifactKey: Guid(38f6b4bb674d21f4c8ea69eb6df0ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/银鲨_4.png using Guid(38f6b4bb674d21f4c8ea69eb6df0ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c4213005dca2ffd98c0d03fa93916c') in 0.012955 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Background/items/水草4_7.png
+  artifactKey: Guid(942f93550ed01e1459f065c49e8eaa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草4_7.png using Guid(942f93550ed01e1459f065c49e8eaa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf0aa531f55a2f923cb3b495bb29e72') in 0.010148 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Background/items/海星2_5.png
+  artifactKey: Guid(7a52daeda2eeedf4a83c9d72a85a4500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星2_5.png using Guid(7a52daeda2eeedf4a83c9d72a85a4500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb826d908d85d0f80ddbf16843bac56a') in 0.013058 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Background/items/海星_0.png
+  artifactKey: Guid(b318745fa435b134bb3ccfbadc826fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星_0.png using Guid(b318745fa435b134bb3ccfbadc826fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e7b9edb11a0e5754f3c3095c28d2d1') in 0.009601 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fish/魔鬼鱼_3.png
+  artifactKey: Guid(357cf9f5ca5d6484fb7405e3511b3361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼_3.png using Guid(357cf9f5ca5d6484fb7405e3511b3361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8fbe273c56e782378912df91e795c8') in 0.015619 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fish/魔鬼鱼_2.png
+  artifactKey: Guid(4686fc28e16716144af5ffec76f55e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼_2.png using Guid(4686fc28e16716144af5ffec76f55e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e00ab7a9558505088a28496c4634382') in 0.014084 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Background/items/海星_1.png
+  artifactKey: Guid(824f03a1e67ece541b57ffde4baf71d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星_1.png using Guid(824f03a1e67ece541b57ffde4baf71d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b01a2b898d5a240845d1007bdd637b') in 0.017190 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fish/银鲨_6.png
+  artifactKey: Guid(1f6223b94460d0140bab022e747e4b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/银鲨_6.png using Guid(1f6223b94460d0140bab022e747e4b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1099f860a20b2135a5c26f25069306de') in 0.013939 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Background/items/水草3_9.png
+  artifactKey: Guid(d94463e886bfb704ea8198f427a5fc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草3_9.png using Guid(d94463e886bfb704ea8198f427a5fc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a242dfebf6bf84b11fdc3521a48bb0d5') in 0.010178 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fish/灯笼鱼_7.png
+  artifactKey: Guid(ef702ba4eea9406409ca8e983540f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/灯笼鱼_7.png using Guid(ef702ba4eea9406409ca8e983540f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e9edf9d957a54673246c28e25bcc0a') in 0.009124 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fish/魔鬼鱼_9.png
+  artifactKey: Guid(36cf14d3d7781354b85e226897a3158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/魔鬼鱼_9.png using Guid(36cf14d3d7781354b85e226897a3158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb2757c652849453127a7caf1d2ca38') in 0.014160 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Background/items/海星2_6.png
+  artifactKey: Guid(c06241d8485465248bd6bb17dbc90f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星2_6.png using Guid(c06241d8485465248bd6bb17dbc90f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78921663230fa568f0aa8a6595c1c1d') in 0.012508 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Background/items/水草3_10.png
+  artifactKey: Guid(6d6d5a46053baad49bf83eec3d55e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草3_10.png using Guid(6d6d5a46053baad49bf83eec3d55e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2d858ae7ee1e2e2ff99af574747cb3') in 0.010661 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fish/石斑鱼_7.png
+  artifactKey: Guid(904306c048d33b64ab5aff462596e723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/石斑鱼_7.png using Guid(904306c048d33b64ab5aff462596e723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b49ec1b5366996d753507491b79fc7') in 0.008453 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fish/银鲨死亡_5.png
+  artifactKey: Guid(5525c059f90ab72438b46f12734a6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/银鲨死亡_5.png using Guid(5525c059f90ab72438b46f12734a6c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54047699bb08bc94c2f991327ff32a') in 0.012026 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Background/items/海星_4.png
+  artifactKey: Guid(fc136a66e5dbc3e40b4846617710446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/海星_4.png using Guid(fc136a66e5dbc3e40b4846617710446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe4701462d50b3d0eed7ad930c143fa') in 0.010172 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Background/items/水草4_6.png
+  artifactKey: Guid(5f314e8975217ef4ab7af17499d02c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Background/items/水草4_6.png using Guid(5f314e8975217ef4ab7af17499d02c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bbb6018017e9bb6a77047d3bbeb4eb') in 0.010764 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/ui_fish_set up1.png
+  artifactKey: Guid(d1356d25523127248a205caccefdff69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UI/ui_fish_set up1.png using Guid(d1356d25523127248a205caccefdff69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6040b7764ff06438ec6b5ec16a42847f') in 0.009891 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fish/枪鱼_18.png
+  artifactKey: Guid(0513a9eec32afec4e9ed70a5835f9fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fish/枪鱼_18.png using Guid(0513a9eec32afec4e9ed70a5835f9fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9776cae91889371d7b09b6d678c86314') in 0.012143 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1816ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1448ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (846ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (712ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 3524.
+Memory consumption went from 116.6 MB to 115.9 MB.
+Total: 3.964000 ms (FindLiveObjects: 0.356600 ms CreateObjectMapping: 0.176500 ms MarkObjects: 2.968800 ms  DeleteObjects: 0.461100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
